@@ -1,0 +1,55 @@
+{
+	"Caption": "Login",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"Caption": "Username",
+							"IsEditable": true,
+							"IsVisible": true,
+							"PlaceHolder": "Enter Username",
+							"_Name": "FormCellSimpleProperty1",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Password",
+							"IsEditable": true,
+							"IsVisible": true,
+							"PlaceHolder": "Enter Password",
+							"_Name": "FormCellSimpleProperty0",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"ButtonType": "Button",
+							"IsVisible": true,
+							"OnPress": "/demoWorkerSebenza/Actions/Nav_Main.action",
+							"TextAlignment": "center",
+							"Title": "Login",
+							"_Name": "FormCellButton1",
+							"_Type": "Control.Type.FormCell.Button"
+						},
+						{
+							"IsVisible": true,
+							"TextAlignment": "center",
+							"Title": "Login with Facebook",
+							"_Name": "FormCellButton0",
+							"_Type": "Control.Type.FormCell.Button"
+						}
+					],
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Visible": true,
+					"_Name": "SectionFormCell0",
+					"_Type": "Section.Type.FormCell"
+				}
+			],
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"_Name": "Login_page",
+	"_Type": "Page"
+}

@@ -1,0 +1,76 @@
+{
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"ObjectHeader": {
+						"BodyText": "Hello and Welcome!",
+						"DetailImage": "res://mdk_logo.png",
+						"DetailImageIsCircular": false,
+						"Footnote": "dd",
+						"HeadlineText": "Miss",
+						"Subhead": "Lerato",
+						"Tags": [
+							"+27112021020",
+							"lerato@yahoo.com"
+						]
+					},
+					"Visible": true,
+					"_Name": "SectionObjectHeader0",
+					"_Type": "Section.Type.ObjectHeader"
+				},
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"KeyAndValues": [
+						{
+							"KeyName": "Payments",
+							"Value": "Rand 200",
+							"Visible": true
+						},
+						{
+							"KeyName": "Skills",
+							"Value": "Cooking",
+							"Visible": true
+						}
+					],
+					"Layout": {
+						"NumberOfColumns": 2
+					},
+					"MaxItemCount": 1,
+					"Visible": true,
+					"_Name": "SectionKeyValue0",
+					"_Type": "Section.Type.KeyValue"
+				}
+			],
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"ToolBar": {
+		"Controls": [
+			{
+				"Caption": "Accept",
+				"Clickable": true,
+				"Enabled": true,
+				"ItemType": "Button",
+				"OnPress": "/demoWorkerSebenza/Actions/Accept.action",
+				"Visible": true,
+				"_Name": "ToolbarItem0",
+				"_Type": "Control.Type.ToolbarItem"
+			},
+			{
+				"Caption": "Reject",
+				"Clickable": true,
+				"Enabled": true,
+				"ItemType": "Button",
+				"Visible": true,
+				"_Name": "ToolbarItem1",
+				"_Type": "Control.Type.ToolbarItem"
+			}
+		]
+	},
+	"_Name": "Main",
+	"_Type": "Page"
+}
