@@ -1,0 +1,120 @@
+{
+	"ActionBar": {
+		"Items": [
+			{
+				"Icon": "sap-icon://customer",
+				"IsIconCircular": false,
+				"OnPress": "/demoWorkerSebenza/Actions/Nav_ProfilePage.action",
+				"Position": "right",
+				"Text": "",
+				"Visible": true
+			}
+		]
+	},
+	"Caption": "Job Page",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"ObjectHeader": {
+						"DetailImage": "/demoWorkerSebenza/Images/MarioRestaurantIcon.png",
+						"DetailImageIsCircular": true,
+						"HeadlineText": "Mario's Restaurant",
+						"Styles": {
+							"BodyText": "objectHeaderBodyText",
+							"Footnote": "objectHeaderBodyText",
+							"HeadlineText": "objectHeaderBodyText",
+							"ObjectHeader": "objectHeaderBackground"
+						},
+						"Subhead": "21 Jump Street",
+						"Tags": [
+							"",
+							""
+						]
+					},
+					"Visible": true,
+					"_Name": "SectionObjectHeader0",
+					"_Type": "Section.Type.ObjectHeader"
+				},
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"KeyAndValues": [
+						{
+							"KeyName": "Current Job",
+							"Value": "Mario's Restaurant 21 Jump Street",
+							"Visible": true
+						},
+						{
+							"KeyName": "Please Sign & Rate Employer",
+							"Value": "",
+							"Visible": true
+						}
+					],
+					"Layout": {
+						"NumberOfColumns": 2
+					},
+					"MaxItemCount": 1,
+					"Visible": true,
+					"_Name": "SectionKeyValue0",
+					"_Type": "Section.Type.KeyValue"
+				},
+				{
+					"Controls": [
+						{
+							"Caption": "Add Signature",
+							"IsVisible": true,
+							"ShowTimestampInImage": false,
+							"ShowUnderline": true,
+							"ShowXMark": true,
+							"WatermarkText": "",
+							"WatermarkTextMaxLines": 5,
+							"_Name": "FormCellSignatureCapture0",
+							"_Type": "Control.Type.FormCell.SignatureCapture"
+						}
+					],
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Visible": true,
+					"_Name": "SectionFormCell0",
+					"_Type": "Section.Type.FormCell"
+				},
+				{
+					"Class": "MySliderClass",
+					"Control": "MySliderExtension",
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"ExtensionProperties": {
+						"MaxValue": 10,
+						"MinValue": 1,
+						"Title": "Rate Employer"
+					},
+					"Module": "MySliderModule",
+					"Visible": true,
+					"_Name": "SectionExtension2",
+					"_Type": "Section.Type.Extension"
+				}
+			],
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"ToolBar": {
+		"Controls": [
+			{
+				"Caption": "Finish Job",
+				"Clickable": true,
+				"Enabled": true,
+				"OnPress": "/demoWorkerSebenza/Actions/Confirmation_Message.action",
+				"Visible": true,
+				"_Name": "ToolbarItem1",
+				"_Type": "Control.Type.ToolbarItem"
+			}
+		]
+	},
+	"_Name": "Accepted_Page",
+	"_Type": "Page"
+}

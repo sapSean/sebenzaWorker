@@ -1,6 +1,6 @@
 {
 	"Localization": "/demoWorkerSebenza/i18n/i18n.properties",
-	"MainPage": "/demoWorkerSebenza/Pages/Login_page.page",
+	"MainPage": "/demoWorkerSebenza/Pages/Job_List.page",
 	"OnDidUpdate": "/demoWorkerSebenza/Actions/Service/InitializeOffline.action",
 	"OnLaunch": [
 		"/demoWorkerSebenza/Actions/Service/InitializeOffline.action"

@@ -1,18 +1,23 @@
 {
+	"Caption": "Profile",
 	"Controls": [
 		{
 			"Sections": [
 				{
 					"ObjectHeader": {
-						"BodyText": "Hello and Welcome!",
-						"DetailImage": "res://mdk_logo.png",
+						"BodyText": "Welcome to your homepage!",
+						"DetailImage": "/demoWorkerSebenza/Images/Loreta.PNG",
 						"DetailImageIsCircular": false,
-						"Footnote": "dd",
 						"HeadlineText": "Miss",
+						"StatusText": "+27112021020",
+						"Styles": {
+							"ObjectHeader": "objectHeaderBackground"
+						},
 						"Subhead": "Lerato",
+						"SubstatusText": "lerato@yahoo.com",
 						"Tags": [
-							"+27112021020",
-							"lerato@yahoo.com"
+							"",
+							""
 						]
 					},
 					"Visible": true,
@@ -25,13 +30,13 @@
 					},
 					"KeyAndValues": [
 						{
-							"KeyName": "Payments",
-							"Value": "Rand 200",
+							"KeyName": "My Skills",
+							"Value": "Cooking",
 							"Visible": true
 						},
 						{
-							"KeyName": "Skills",
-							"Value": "Cooking",
+							"KeyName": "My Rating ",
+							"Value": "4.5/5",
 							"Visible": true
 						}
 					],
@@ -51,26 +56,16 @@
 	"ToolBar": {
 		"Controls": [
 			{
-				"Caption": "Accept",
+				"Caption": "Logout",
 				"Clickable": true,
 				"Enabled": true,
-				"ItemType": "Button",
-				"OnPress": "/demoWorkerSebenza/Actions/Accept.action",
+				"OnPress": "/demoWorkerSebenza/Actions/Nav_Login.action",
 				"Visible": true,
 				"_Name": "ToolbarItem0",
-				"_Type": "Control.Type.ToolbarItem"
-			},
-			{
-				"Caption": "Reject",
-				"Clickable": true,
-				"Enabled": true,
-				"ItemType": "Button",
-				"Visible": true,
-				"_Name": "ToolbarItem1",
 				"_Type": "Control.Type.ToolbarItem"
 			}
 		]
 	},
-	"_Name": "Main",
+	"_Name": "Profile",
 	"_Type": "Page"
 }

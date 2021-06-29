@@ -1,46 +1,21 @@
 {
-	"ActionBar": {
-		"Items": [
-			{
-				"IsIconCircular": false,
-				"OnPress": "/demoWorkerSebenza/Actions/Confirmation_Message.action",
-				"Position": "right",
-				"Text": "Finish Job",
-				"Visible": true
-			}
-		]
-	},
-	"Caption": "Job Page",
+	"Caption": "Payment Page",
 	"Controls": [
 		{
 			"Sections": [
-				{
-					"ObjectHeader": {
-						"DetailImage": "res://mdk_logo.png",
-						"DetailImageIsCircular": true,
-						"HeadlineText": "Miss",
-						"Subhead": "Lerato",
-						"Tags": [
-							"{PhoneNumber}"
-						]
-					},
-					"Visible": true,
-					"_Name": "SectionObjectHeader0",
-					"_Type": "Section.Type.ObjectHeader"
-				},
 				{
 					"EmptySection": {
 						"FooterVisible": false
 					},
 					"KeyAndValues": [
 						{
-							"KeyName": "Current Jobs",
-							"Value": "Mario's Restaurant 21 Jump Street",
+							"KeyName": "Job",
+							"Value": "Marios Restaurant 21 Jump Street",
 							"Visible": true
 						},
 						{
-							"KeyName": "Please Rate Your Employer",
-							"Value": "",
+							"KeyName": "Status",
+							"Value": "Unpaid",
 							"Visible": true
 						}
 					],
@@ -55,29 +30,42 @@
 				{
 					"Controls": [
 						{
+							"IsEditable": true,
+							"IsVisible": true,
+							"PlaceHolder": "PlaceHolder",
+							"Value": "If Dispute",
+							"_Name": "FormCellTitle0",
+							"_Type": "Control.Type.FormCell.Title"
+						},
+						{
 							"AllowDefaultValueIfOneItem": false,
 							"AllowEmptySelection": false,
 							"AllowMultipleSelection": false,
-							"Caption": "Choose Star",
+							"Caption": "Choose Issue Reason",
 							"DataPaging": {
 								"PageSize": 50,
 								"ShowLoadingIndicator": false
 							},
 							"IsEditable": true,
-							"IsPickerDismissedOnSelection": true,
+							"IsPickerDismissedOnSelection": false,
 							"IsSearchCancelledAfterSelection": false,
 							"IsSelectedSectionEnabled": false,
 							"IsVisible": true,
 							"PickerItems": [
-								"1",
-								"2",
-								"3",
-								"4",
-								"5"
+								"I have not been paid",
+								"Job was not as advertised",
+								"Other"
 							],
-							"PickerPrompt": "Please select how many stars",
+							"PickerPrompt": "Please select one single item",
 							"_Name": "FormCellListPicker0",
 							"_Type": "Control.Type.FormCell.ListPicker"
+						},
+						{
+							"IsEditable": true,
+							"IsVisible": true,
+							"PlaceHolder": "If Other Please state",
+							"_Name": "FormCellNote0",
+							"_Type": "Control.Type.FormCell.Note"
 						}
 					],
 					"EmptySection": {
@@ -92,6 +80,18 @@
 			"_Type": "Control.Type.SectionedTable"
 		}
 	],
-	"_Name": "Accepted_Page",
+	"ToolBar": {
+		"Controls": [
+			{
+				"Caption": "Submit Dispute",
+				"Clickable": true,
+				"Enabled": true,
+				"Visible": true,
+				"_Name": "ToolbarItem0",
+				"_Type": "Control.Type.ToolbarItem"
+			}
+		]
+	},
+	"_Name": "Dispute_page",
 	"_Type": "Page"
 }

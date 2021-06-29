@@ -1,0 +1,53 @@
+{
+	"ActionBar": {
+		"Items": [
+			{
+				"IsIconCircular": false,
+				"OnPress": "/demoWorkerSebenza/Actions/ShowMessage.action",
+				"Position": "right",
+				"SystemItem": "Save",
+				"Text": "Item",
+				"Visible": true
+			}
+		]
+	},
+	"Caption": "Slider_extention",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"Class": "MySliderClass",
+							"Control": "MySliderExtension",
+							"ExtensionProperties": {
+								"MaxValue": 10,
+								"MinValue": 1,
+								"Title": "k"
+							},
+							"Height": 72,
+							"IsVisible": true,
+							"Module": "MySliderModule",
+							"_Name": "MyExtensionControlName",
+							"_Type": "Control.Type.FormCell.Extension"
+						},
+						{
+							"Caption": "Caption",
+							"IsEditable": true,
+							"IsVisible": true,
+							"OnValueChange": "/demoWorkerSebenza/Rules/SetExtensionValue.js",
+							"PlaceHolder": "Enter number to set the slider ext's value",
+							"_Name": "Manual Entry",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						}
+					],
+					"Visible": true
+				}
+			],
+			"_Name": "FormCellContainer0",
+			"_Type": "Control.Type.FormCellContainer"
+		}
+	],
+	"_Name": "Slider_extention",
+	"_Type": "Page"
+}

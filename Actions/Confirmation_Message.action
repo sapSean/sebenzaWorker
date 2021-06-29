@@ -2,5 +2,8 @@
 	"CancelCaption": "Cancel",
 	"Message": "Thank you for using Sebenza",
 	"OKCaption": "OK",
+	"OnFailure": "/demoWorkerSebenza/Actions/Nav_ProfilePage.action",
+	"OnOK": "/demoWorkerSebenza/Actions/Nav_JobList.action",
+	"OnSuccess": "/demoWorkerSebenza/Actions/Nav_ProfilePage.action",
 	"_Type": "Action.Type.Message"
 }

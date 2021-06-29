@@ -1,0 +1,7 @@
+{
+	"CancelCaption": "Cancel",
+	"Message": "Dispute Submitted",
+	"OKCaption": "OK",
+	"OnOK": "/demoWorkerSebenza/Actions/Nav_ProfilePage.action",
+	"_Type": "Action.Type.Message"
+}

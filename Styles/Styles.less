@@ -1,21 +1,127 @@
-/* The LESS stylesheet provides the ability to define styling styles that can be used to style the UI in the MDK app.
+@mdkYellow1: #f5f4f4;
+@mdkRed1: #4d4a4a; 
 
-Examples:
+//// This style applies to all the ActionBars in the application
+ActionBar {
+    color: white;
+    background-color: rgb(0, 122, 77);
+}
 
-@mdkYellow1: #ffbb33;
-@mdkRed1: #ff0000;
+//// This style applies to all the ToolBars in the application
+ToolBar {
+    color: white;
+    background-color: rgb(255, 182, 18);
+}
 
-//// By-Type style: All Pages in the application will now have a yellow background
-Page
+//// LogoutToolbarItem is tool bar item for Logout in Main.page
+#LogoutToolbarItem  {
+    color: brown;
+}
 
-{ background-color: @mdkYellow1; }
-//// By-Name style: All Buttons with _Name == "BlueButton" will now have this style
-#BlueButton
+//// UploadToolbarItem is tool bar item for Sync in Main.page
+#UploadToolbarItem  {
+    color: rgb(0, 122, 77);
+}
 
-{ color: @mdkYellow1; background-color: #0000FF; }
 //// By-Class style: These style classes can be referenced from rules and set using ClientAPI setStyle function
+//// below snippet is to style Customers button on Main.page
+.MyCustomerButton{
+  font-color: #4d4a4a; 
+  background-color: rgb(255, 182, 18);
+}
 
-.MyButton
+.myJobButton {
+  background-color: rgb(247, 247, 247);
+  font-color: #4d4a4a; 
+}
 
-{ color: @mdkYellow1; background-color: @mdkRed1; }
-*/
+.myJobDetail {
+    font-size: large;
+}
+
+.img1 {
+    image-resolution: 500px;
+}
+
+.mario {
+    font-size: large;
+}
+
+.myJobButton1 {
+  background-color: rgb(223, 222, 222);
+  font-color: #4d4a4a; 
+}
+
+.IMG {
+    height: 400px;
+    image-rendering: auto;
+}
+
+//// below snippet is to style Title property of an Object Table control in Customers_List.page
+.ObjectTableTitle {
+  font-color: #cccccc;
+  background-color: @mdkRed1;
+}
+
+//// below snippet is to style Object Header control in Customers_Detail.page
+
+/* Object Header - BodyText */
+/* iOS Only */
+.objectHeaderBodyText {
+  font-color: red;
+}
+
+/* Object Header - Description */
+/* iOS Only */
+.objectHeaderDescription {
+  font-color: blue;
+}
+
+/* Object Header - Footnote */
+/* iOS Only */
+.objectHeaderFootNote {
+  font-color: green;
+}
+
+/* Object Header - Headline */
+/* iOS Only */
+.objectHeaderHeadline {
+  font-color: #ff00ff;
+}
+
+/* Object Header - Background */
+.objectHeaderBackground {
+background-color: rgb(0, 122, 77);
+}
+
+/* Object Header - StatusText */
+/* iOS Only */
+.objectHeaderStatus {
+  background-color: #cccccc;
+  font-color: red;
+  font-name: italicSystem;
+  font-style: italic;
+  font-size: 18;
+}
+
+/* Object Header - Subhead */
+/* iOS Only */
+.objectHeaderSubhead {
+  font-color: yellow;
+}
+
+.centering {
+    text-align: center;
+}
+
+
+
+/* Object Header - SubstatusText */
+/* iOS Only */
+.objectHeaderSubStatus {
+  background-color: #cccccc;
+  font-color: blue;
+  font-name: italicSystem;
+  font-style: italic;
+  font-size: 18;
+}

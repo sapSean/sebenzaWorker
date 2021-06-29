@@ -1,0 +1,11 @@
+{
+	"Caption": "Job_Offer",
+	"Controls": [
+		{
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"_Name": "Job_Offer",
+	"_Type": "Page"
+}

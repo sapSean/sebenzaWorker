@@ -1,0 +1,209 @@
+{
+	"ActionBar": {
+		"Items": [
+			{
+				"IsIconCircular": false,
+				"OnPress": "/demoWorkerSebenza/Actions/Nav_Login.action",
+				"Position": "right",
+				"Text": "Login/Register",
+				"Visible": true
+			}
+		]
+	},
+	"Caption": "Available Jobs",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"KeyAndValues": [
+						{
+							"KeyName": "Money Made on Sebenza",
+							"Value": "R20,000,000",
+							"Visible": true
+						}
+					],
+					"Layout": {
+						"NumberOfColumns": 2
+					},
+					"MaxItemCount": 1,
+					"Visible": true,
+					"_Name": "SectionKeyValue1",
+					"_Type": "Section.Type.KeyValue"
+				},
+				{
+					"Controls": [
+						{
+							"Caption": "Sort by Starting Date",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Mode": "date",
+							"Value": "Enter Date",
+							"_Name": "FormCellDatePicker1",
+							"_Type": "Control.Type.FormCell.DatePicker"
+						},
+						{
+							"Caption": "End Date",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Mode": "date",
+							"Value": "Enter Date",
+							"_Name": "FormCellDatePicker0",
+							"_Type": "Control.Type.FormCell.DatePicker"
+						},
+						{
+							"AllowEmptySelection": false,
+							"AllowMultipleSelection": true,
+							"Caption": "View With",
+							"IsEditable": true,
+							"IsVisible": true,
+							"SortByItems": [
+								"List",
+								"Map"
+							],
+							"_Name": "FormCellSorter0",
+							"_Type": "Control.Type.FormCell.Sorter"
+						}
+					],
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Visible": true,
+					"_Name": "SectionFormCell0",
+					"_Type": "Section.Type.FormCell"
+				},
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"HighlightSelectedItem": false,
+					"ObjectCells": [
+						{
+							"ObjectCell": {
+								"AccessoryType": "none",
+								"Description": "R220 Per Hour",
+								"DetailImage": "/demoWorkerSebenza/Images/MarioRestaurantIcon.png",
+								"DetailImageIsCircular": true,
+								"Footnote": "Cleaning - 2 Hours",
+								"OnPress": "/demoWorkerSebenza/Actions/Nav_JobDetail.action",
+								"PreserveIconStackSpacing": true,
+								"Selected": false,
+								"StatusText": "Status",
+								"Styles": {
+									"BackgroundColor": "myJobButton"
+								},
+								"Subhead": "21 Jump Street",
+								"SubstatusText": "Open",
+								"Title": "Mario's Restaurant",
+								"Visible": true
+							}
+						},
+						{
+							"ObjectCell": {
+								"AccessoryType": "none",
+								"Description": "R100 Per Hour",
+								"DetailImage": "/demoWorkerSebenza/Images/shop.png",
+								"DetailImageIsCircular": true,
+								"Footnote": "Cleaning - 1 Hour",
+								"PreserveIconStackSpacing": true,
+								"Selected": false,
+								"StatusText": "Status",
+								"Styles": {
+									"BackgroundColor": "myJobButton1"
+								},
+								"Subhead": "16 Jump Street",
+								"SubstatusText": "Open",
+								"Title": "Mama Oliech General Stores",
+								"Visible": true
+							}
+						},
+						{
+							"ObjectCell": {
+								"AccessoryType": "none",
+								"Description": "R150 Per Hour",
+								"DetailImage": "/demoWorkerSebenza/Images/gym.jpg",
+								"DetailImageIsCircular": false,
+								"Footnote": "Cleaning - 1 Hour",
+								"PreserveIconStackSpacing": true,
+								"Selected": false,
+								"StatusText": "Status",
+								"Styles": {
+									"BackgroundColor": "myJobButton"
+								},
+								"Subhead": "32 Accra Road",
+								"SubstatusText": "Open",
+								"Title": "Pump Fitness Gym",
+								"Visible": true
+							}
+						}
+					],
+					"Selection": {
+						"ExitOnLastDeselect": true,
+						"LongPressToEnable": "None",
+						"Mode": "None"
+					},
+					"Visible": true,
+					"_Name": "SectionObjectTable1",
+					"_Type": "Section.Type.ObjectTable"
+				},
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"KeyAndValues": [
+						{
+							"KeyName": "See Jobs on Map",
+							"Value": "",
+							"Visible": true
+						}
+					],
+					"Layout": {
+						"NumberOfColumns": 2
+					},
+					"MaxItemCount": 1,
+					"Visible": true,
+					"_Name": "SectionKeyValue0",
+					"_Type": "Section.Type.KeyValue"
+				},
+				{
+					"Class": "MyMapClass",
+					"Control": "MyMapExtension",
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"ExtensionProperties": {
+						"Prop": {
+							"City": "{City}",
+							"Country": "{Country}",
+							"HouseNumber": "{HouseNumber}",
+							"LastName": "{LastName}",
+							"PostalCode": "{PostalCode}",
+							"Street": "{Street}"
+						}
+					},
+					"Height": 600,
+					"Module": "MyMapModule",
+					"Visible": true,
+					"_Name": "SectionExtension0",
+					"_Type": "Section.Type.Extension"
+				},
+				{
+					"Controls": [
+					],
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Visible": true,
+					"_Name": "SectionFormCell1",
+					"_Type": "Section.Type.FormCell"
+				}
+			],
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"_Name": "Job_List",
+	"_Type": "Page"
+}

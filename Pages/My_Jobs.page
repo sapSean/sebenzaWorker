@@ -1,0 +1,102 @@
+{
+	"ActionBar": {
+		"Items": [
+			{
+				"Icon": "sap-icon://customer",
+				"IsIconCircular": false,
+				"OnPress": "/demoWorkerSebenza/Actions/Nav_ProfilePage.action",
+				"Position": "right",
+				"Text": "Item",
+				"Visible": true
+			}
+		]
+	},
+	"Caption": "My Jobs",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"AllowEmptySelection": false,
+							"AllowMultipleSelection": true,
+							"Caption": "Sort by",
+							"IsEditable": true,
+							"IsVisible": true,
+							"SortByItems": [
+								"In Process",
+								"Completed",
+								"Paid"
+							],
+							"_Name": "FormCellSorter0",
+							"_Type": "Control.Type.FormCell.Sorter"
+						}
+					],
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Visible": true,
+					"_Name": "SectionFormCell0",
+					"_Type": "Section.Type.FormCell"
+				},
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"HighlightSelectedItem": false,
+					"ObjectCells": [
+						{
+							"ObjectCell": {
+								"AccessoryType": "none",
+								"Description": "Cleaning",
+								"DetailImage": "/demoWorkerSebenza/Images/MarioRestaurantIcon.png",
+								"DetailImageIsCircular": false,
+								"OnPress": "/demoWorkerSebenza/Actions/Nav_Finish_Job.action",
+								"PreserveIconStackSpacing": true,
+								"Selected": false,
+								"StatusText": "Status",
+								"Styles": {
+									"BackgroundColor": "myJobButton"
+								},
+								"Subhead": "21 Jump Street",
+								"SubstatusText": "In Process",
+								"Title": "Mario's Restaurant",
+								"Visible": true
+							}
+						},
+						{
+							"ObjectCell": {
+								"AccessoryType": "none",
+								"Description": "Cleaning",
+								"DetailImage": "/demoWorkerSebenza/Images/gym.jpg",
+								"DetailImageIsCircular": false,
+								"PreserveIconStackSpacing": true,
+								"Selected": false,
+								"StatusText": "Status",
+								"Styles": {
+									"BackgroundColor": "myJobButton1"
+								},
+								"Subhead": "32 Accura Road",
+								"SubstatusText": "Completed",
+								"Title": "Pump Gym Fittness",
+								"Visible": true
+							}
+						}
+					],
+					"Selection": {
+						"ExitOnLastDeselect": true,
+						"LongPressToEnable": "None",
+						"Mode": "None"
+					},
+					"Visible": true,
+					"_Name": "SectionObjectTable0",
+					"_Type": "Section.Type.ObjectTable"
+				}
+			],
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"_Name": "My_Jobs",
+	"_Type": "Page"
+}

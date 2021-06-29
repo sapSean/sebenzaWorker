@@ -1,0 +1,85 @@
+{
+	"ActionBar": {
+		"Items": [
+			{
+				"IsIconCircular": false,
+				"Position": "right",
+				"SystemItem": "Save",
+				"Text": "Item",
+				"Visible": true
+			}
+		]
+	},
+	"Caption": "Register User",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"Caption": "Username",
+							"IsEditable": true,
+							"IsVisible": true,
+							"PlaceHolder": "Email or Phone Number",
+							"_Name": "FormCellSimpleProperty0",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Date of Birth",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Mode": "date",
+							"Value": "Enter Date",
+							"_Name": "FormCellDatePicker0",
+							"_Type": "Control.Type.FormCell.DatePicker"
+						},
+						{
+							"Caption": "Location",
+							"IsEditable": true,
+							"IsVisible": true,
+							"PlaceHolder": "Google Maps Here",
+							"_Name": "FormCellSimpleProperty2",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"AllowDefaultValueIfOneItem": false,
+							"AllowEmptySelection": false,
+							"AllowMultipleSelection": true,
+							"Caption": "Choose Skills",
+							"DataPaging": {
+								"PageSize": 50,
+								"ShowLoadingIndicator": false
+							},
+							"IsEditable": true,
+							"IsSelectedSectionEnabled": false,
+							"IsVisible": true,
+							"PickerItems": [
+								"Cleaning",
+								"Cooking ",
+								"Manal Labor"
+							],
+							"PickerPrompt": "Please select multiple items",
+							"_Name": "FormCellListPicker0",
+							"_Type": "Control.Type.FormCell.ListPicker"
+						},
+						{
+							"IsVisible": true,
+							"Styles": {
+								"Background": "MyCustomerButton"
+							},
+							"TextAlignment": "center",
+							"Title": "Profile Picture",
+							"_Name": "FormCellButton0",
+							"_Type": "Control.Type.FormCell.Button"
+						}
+					],
+					"Visible": true
+				}
+			],
+			"_Name": "FormCellContainer0",
+			"_Type": "Control.Type.FormCellContainer"
+		}
+	],
+	"_Name": "Register_User",
+	"_Type": "Page"
+}

@@ -1,0 +1,129 @@
+{
+	"ActionBar": {
+		"Items": [
+			{
+				"IsIconCircular": false,
+				"OnPress": "/demoWorkerSebenza/Actions/Nav_MyJobs.action",
+				"Position": "right",
+				"Text": "My Jobs",
+				"Visible": true
+			}
+		]
+	},
+	"Caption": "Job Details",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"ObjectHeader": {
+						"BodyText": "Please select 'Apply' if interested",
+						"Description": "mariosRestaurant@gmail.com",
+						"DetailImage": "/demoWorkerSebenza/Images/MarioRestaurantIcon.png",
+						"DetailImageIsCircular": false,
+						"Footnote": "TEL : +27112012345",
+						"HeadlineText": "Mario's Restaurant",
+						"Styles": {
+							"Description": "mario",
+							"ObjectHeader": "objectHeaderBackground"
+						},
+						"Subhead": "21 Jump Street",
+						"Tags": [
+							"",
+							""
+						]
+					},
+					"Visible": true,
+					"_Name": "SectionObjectHeader0",
+					"_Type": "Section.Type.ObjectHeader"
+				},
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"KeyAndValues": [
+						{
+							"KeyName": "Duration",
+							"LinkColor": "myJobDetail",
+							"Value": "2 Hours",
+							"Visible": true
+						},
+						{
+							"KeyName": "Distance to Job",
+							"LinkColor": "myJobDetail",
+							"Value": "2 Miles",
+							"Visible": true
+						},
+						{
+							"KeyName": "Location",
+							"Value": "Mario's Restaurant 21 Jump Street",
+							"Visible": true
+						},
+						{
+							"KeyName": "Description",
+							"Value": "Cleaning venue after large event",
+							"Visible": true
+						},
+						{
+							"KeyName": "Salary for Job",
+							"LinkColor": "myJobDetail",
+							"Value": "R200",
+							"Visible": true
+						},
+						{
+							"KeyName": "Skills",
+							"Value": "Cleaning",
+							"Visible": true
+						}
+					],
+					"Layout": {
+						"NumberOfColumns": 2
+					},
+					"MaxItemCount": 1,
+					"Visible": true,
+					"_Name": "SectionKeyValue0",
+					"_Type": "Section.Type.KeyValue"
+				},
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"ImageCells": [
+						{
+							"ImageCell": {
+								"Image": "/demoWorkerSebenza/Images/map.png",
+								"ImageIsCircular": false,
+								"Styles": {
+									"Image": "img1"
+								},
+								"Visible": true
+							}
+						}
+					],
+					"Layout": {
+						"LayoutType": "HorizontalFit"
+					},
+					"Visible": true,
+					"_Name": "SectionImageCollection0",
+					"_Type": "Section.Type.ImageCollection"
+				}
+			],
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"ToolBar": {
+		"Controls": [
+			{
+				"Caption": "Apply",
+				"Clickable": true,
+				"Enabled": true,
+				"OnPress": "/demoWorkerSebenza/Actions/Application_Successful.action",
+				"Visible": true,
+				"_Name": "ToolbarItem0",
+				"_Type": "Control.Type.ToolbarItem"
+			}
+		]
+	},
+	"_Name": "Main",
+	"_Type": "Page"
+}

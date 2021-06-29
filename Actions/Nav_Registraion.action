@@ -1,5 +1,5 @@
 {
 	"NavigationType": "Cross",
-	"PageToOpen": "/demoWorkerSebenza/Pages/Job_Details.page",
+	"PageToOpen": "/demoWorkerSebenza/Pages/Register_User.page",
 	"_Type": "Action.Type.Navigation"
 }
