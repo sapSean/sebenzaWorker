@@ -84,27 +84,16 @@
 					"_Type": "Section.Type.KeyValue"
 				},
 				{
+					"Class": "MyMapClass",
+					"Control": "MyMapExtension",
 					"EmptySection": {
 						"FooterVisible": false
 					},
-					"ImageCells": [
-						{
-							"ImageCell": {
-								"Image": "/demoWorkerSebenza/Images/map.png",
-								"ImageIsCircular": false,
-								"Styles": {
-									"Image": "img1"
-								},
-								"Visible": true
-							}
-						}
-					],
-					"Layout": {
-						"LayoutType": "HorizontalFit"
-					},
+					"Height": 600,
+					"Module": "MyMapModule",
 					"Visible": true,
-					"_Name": "SectionImageCollection0",
-					"_Type": "Section.Type.ImageCollection"
+					"_Name": "SectionExtension1",
+					"_Type": "Section.Type.Extension"
 				}
 			],
 			"_Name": "SectionedTable0",

@@ -10,9 +10,21 @@
 					"ImageCells": [
 						{
 							"ImageCell": {
+								"ImageIsCircular": false,
+								"Visible": false
+							}
+						},
+						{
+							"ImageCell": {
 								"Image": "/demoWorkerSebenza/Images/sebenza_logo-02.jpg",
 								"ImageIsCircular": false,
 								"Visible": true
+							}
+						},
+						{
+							"ImageCell": {
+								"ImageIsCircular": false,
+								"Visible": false
 							}
 						}
 					],
