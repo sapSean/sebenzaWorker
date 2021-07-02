@@ -38,15 +38,34 @@
 				},
 				{
 					"EmptySection": {
+						"Caption": "Duration",
 						"FooterVisible": false
 					},
 					"KeyAndValues": [
 						{
 							"KeyName": "Duration",
-							"LinkColor": "myJobDetail",
-							"Value": "2 Hours",
+							"Value": "2 hours",
 							"Visible": true
 						},
+						{
+							"KeyName": "Salary for Job",
+							"Value": "R200",
+							"Visible": true
+						}
+					],
+					"Layout": {
+						"NumberOfColumns": 2
+					},
+					"MaxItemCount": 1,
+					"Visible": true,
+					"_Name": "SectionKeyValue1",
+					"_Type": "Section.Type.KeyValue"
+				},
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"KeyAndValues": [
 						{
 							"KeyName": "Distance to Job",
 							"LinkColor": "myJobDetail",
@@ -61,12 +80,6 @@
 						{
 							"KeyName": "Description",
 							"Value": "Cleaning venue after large event",
-							"Visible": true
-						},
-						{
-							"KeyName": "Salary for Job",
-							"LinkColor": "myJobDetail",
-							"Value": "R200",
 							"Visible": true
 						},
 						{
@@ -89,10 +102,20 @@
 					"EmptySection": {
 						"FooterVisible": false
 					},
+					"ExtensionProperties": {
+						"Prop": {
+							"City": "{City}",
+							"Country": "{Country}",
+							"HouseNumber": "{HouseNumber}",
+							"LastName": "{LastName}",
+							"PostalCode": "{PostalCode}",
+							"Street": "{Street}"
+						}
+					},
 					"Height": 600,
 					"Module": "MyMapModule",
 					"Visible": true,
-					"_Name": "SectionExtension1",
+					"_Name": "SectionExtension2",
 					"_Type": "Section.Type.Extension"
 				}
 			],

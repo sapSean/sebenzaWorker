@@ -62,6 +62,14 @@
 							"_Type": "Control.Type.FormCell.SimpleProperty"
 						},
 						{
+							"Caption": "Keep me logged in",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Value": false,
+							"_Name": "FormCellSwitch0",
+							"_Type": "Control.Type.FormCell.Switch"
+						},
+						{
 							"ButtonType": "Button",
 							"IsVisible": true,
 							"OnPress": "/demoWorkerSebenza/Actions/Nav_JobList.action",
@@ -73,14 +81,6 @@
 							"Title": "Login",
 							"_Name": "FormCellButton1",
 							"_Type": "Control.Type.FormCell.Button"
-						},
-						{
-							"Caption": "Keep me logged in",
-							"IsEditable": true,
-							"IsVisible": true,
-							"Value": false,
-							"_Name": "FormCellSwitch0",
-							"_Type": "Control.Type.FormCell.Switch"
 						},
 						{
 							"ButtonType": "Button",

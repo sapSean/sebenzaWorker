@@ -37,9 +37,28 @@
 							"Caption": "Location",
 							"IsEditable": true,
 							"IsVisible": true,
-							"PlaceHolder": "Google Maps Here",
+							"PlaceHolder": "Enter Town",
 							"_Name": "FormCellSimpleProperty2",
 							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Class": "MyMapClass",
+							"Control": "MyMapExtension",
+							"ExtensionProperties": {
+								"Prop": {
+									"City": "{City}",
+									"Country": "{Country}",
+									"HouseNumber": "{HouseNumber}",
+									"LastName": "{LastName}",
+									"PostalCode": "{PostalCode}",
+									"Street": "{Street}"
+								}
+							},
+							"Height": 300,
+							"IsVisible": true,
+							"Module": "MyMapModule",
+							"_Name": "FormCellExtension0",
+							"_Type": "Control.Type.FormCell.Extension"
 						},
 						{
 							"AllowDefaultValueIfOneItem": false,
@@ -56,7 +75,7 @@
 							"PickerItems": [
 								"Cleaning",
 								"Cooking ",
-								"Manal Labor"
+								"Manual Labor"
 							],
 							"PickerPrompt": "Please select multiple items",
 							"_Name": "FormCellListPicker0",

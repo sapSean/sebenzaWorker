@@ -149,23 +149,21 @@
 					"_Type": "Section.Type.ObjectTable"
 				},
 				{
+					"Controls": [
+						{
+							"IsEditable": true,
+							"IsVisible": true,
+							"Value": "See Jobs on Map",
+							"_Name": "FormCellTitle0",
+							"_Type": "Control.Type.FormCell.Title"
+						}
+					],
 					"EmptySection": {
 						"FooterVisible": false
 					},
-					"KeyAndValues": [
-						{
-							"KeyName": "See Jobs on Map",
-							"Value": "",
-							"Visible": true
-						}
-					],
-					"Layout": {
-						"NumberOfColumns": 2
-					},
-					"MaxItemCount": 1,
 					"Visible": true,
-					"_Name": "SectionKeyValue0",
-					"_Type": "Section.Type.KeyValue"
+					"_Name": "SectionFormCell2",
+					"_Type": "Section.Type.FormCell"
 				},
 				{
 					"Class": "MyMapClass",

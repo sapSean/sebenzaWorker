@@ -24,6 +24,7 @@
 							"IsEditable": true,
 							"IsVisible": true,
 							"SortByItems": [
+								"Approval Pending",
 								"In Process",
 								"Completed",
 								"Paid"
