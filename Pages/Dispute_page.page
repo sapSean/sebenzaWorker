@@ -63,7 +63,7 @@
 						{
 							"IsEditable": true,
 							"IsVisible": true,
-							"PlaceHolder": "If Other Please state",
+							"PlaceHolder": "If Other Please State",
 							"_Name": "FormCellNote0",
 							"_Type": "Control.Type.FormCell.Note"
 						}
