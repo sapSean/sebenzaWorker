@@ -88,7 +88,7 @@
 						"FooterVisible": false
 					},
 					"ExtensionProperties": {
-						"MaxValue": 10,
+						"MaxValue": 5,
 						"MinValue": 1,
 						"Title": "Rate Employer"
 					},

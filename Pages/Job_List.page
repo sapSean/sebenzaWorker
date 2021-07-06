@@ -34,6 +34,28 @@
 					"_Type": "Section.Type.KeyValue"
 				},
 				{
+					"Class": "MyMapClass",
+					"Control": "MyMapExtension",
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"ExtensionProperties": {
+						"Prop": {
+							"City": "{City}",
+							"Country": "{Country}",
+							"HouseNumber": "{HouseNumber}",
+							"LastName": "{LastName}",
+							"PostalCode": "{PostalCode}",
+							"Street": "{Street}"
+						}
+					},
+					"Height": 450,
+					"Module": "MyMapModule",
+					"Visible": true,
+					"_Name": "SectionExtension0",
+					"_Type": "Section.Type.Extension"
+				},
+				{
 					"Controls": [
 						{
 							"Caption": "Sort by Starting Date",
@@ -150,13 +172,6 @@
 				},
 				{
 					"Controls": [
-						{
-							"IsEditable": true,
-							"IsVisible": true,
-							"Value": "See Jobs on Map",
-							"_Name": "FormCellTitle0",
-							"_Type": "Control.Type.FormCell.Title"
-						}
 					],
 					"EmptySection": {
 						"FooterVisible": false
@@ -164,28 +179,6 @@
 					"Visible": true,
 					"_Name": "SectionFormCell2",
 					"_Type": "Section.Type.FormCell"
-				},
-				{
-					"Class": "MyMapClass",
-					"Control": "MyMapExtension",
-					"EmptySection": {
-						"FooterVisible": false
-					},
-					"ExtensionProperties": {
-						"Prop": {
-							"City": "{City}",
-							"Country": "{Country}",
-							"HouseNumber": "{HouseNumber}",
-							"LastName": "{LastName}",
-							"PostalCode": "{PostalCode}",
-							"Street": "{Street}"
-						}
-					},
-					"Height": 600,
-					"Module": "MyMapModule",
-					"Visible": true,
-					"_Name": "SectionExtension0",
-					"_Type": "Section.Type.Extension"
 				},
 				{
 					"Controls": [

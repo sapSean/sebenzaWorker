@@ -5,16 +5,15 @@
 			"Sections": [
 				{
 					"ObjectHeader": {
-						"BodyText": "Welcome to your homepage!",
+						"BodyText": "lerato@yahoo.com",
+						"Description": "Welcome to your home page!",
 						"DetailImage": "/demoWorkerSebenza/Images/Loreta.PNG",
 						"DetailImageIsCircular": false,
-						"HeadlineText": "Miss",
-						"StatusText": "+27112021020",
+						"Footnote": "+27112021020",
+						"HeadlineText": "Miss Lerato",
 						"Styles": {
 							"ObjectHeader": "objectHeaderBackground"
 						},
-						"Subhead": "Lerato",
-						"SubstatusText": "lerato@yahoo.com",
 						"Tags": [
 							"",
 							""

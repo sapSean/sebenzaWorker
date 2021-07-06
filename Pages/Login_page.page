@@ -36,11 +36,24 @@
 					"_Type": "Section.Type.ImageCollection"
 				},
 				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"ImageCells": [
+					],
+					"Layout": {
+						"LayoutType": "HorizontalFit"
+					},
+					"Visible": true,
+					"_Name": "SectionImageCollection1",
+					"_Type": "Section.Type.ImageCollection"
+				},
+				{
 					"Controls": [
 						{
 							"IsEditable": true,
 							"IsVisible": true,
-							"PlaceHolder": "Enter ",
+							"PlaceHolder": "Enter Username",
 							"Styles": {
 								"Background": "centering",
 								"Caption": "centering",
