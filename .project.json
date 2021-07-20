@@ -3,7 +3,26 @@
 	"CF": {
 		"Target": "https://api.cf.eu10.hana.ondemand.com",
 		"Organization": "cdc5224b-59c7-43b2-9a52-f25a22db5bab",
-		"Space": "a87291fa-2073-4e01-bb66-6d81f1f48f04"
+		"Space": "a87291fa-2073-4e01-bb66-6d81f1f48f04",
+		"Deploy": {
+			"Destination": [
+				{
+					"CF": "com.sap.edm.sampleservice.v2",
+					"MDK": "com.sap.edm.sampleservice.v2",
+					"URL": ""
+				}
+			],
+			"Name": "ns.demoWorkerSebenza",
+			"Version": "1.0.0",
+			"SourceMap": false,
+			"StandaloneRouter": true,
+			"WebClient": {
+				"Dev": false,
+				"Version": "5.0.0",
+				"URL": "https://mdk-webclient-runtime.cfapps.eu10.hana.ondemand.com/runtime-5.0.0/"
+			},
+			"URL": "https://9f9c7ed1trial-dev-nsdemoworkersebenza-approuter.cfapps.eu10.hana.ondemand.com/nsdemoWorkerSebenza/index.html"
+		}
 	},
 	"MobileService": {
 		"Type": "standard",

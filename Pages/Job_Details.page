@@ -129,6 +129,7 @@
 				"Caption": "Apply",
 				"Clickable": true,
 				"Enabled": true,
+				"ItemType": "Button",
 				"OnPress": "/demoWorkerSebenza/Actions/Application_Successful.action",
 				"Visible": true,
 				"_Name": "ToolbarItem0",
